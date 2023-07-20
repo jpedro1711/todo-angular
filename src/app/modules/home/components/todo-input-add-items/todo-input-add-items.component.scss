@@ -1,4 +1,4 @@
-@import "../../../../../dist/scss/variables.scss";
+@import '../../../../../dist/scss/variables.scss';
 
 :host {
   display: flex;
@@ -20,6 +20,21 @@
 
     &::placeholder {
       color: $secondary-text-color;
+    }
+  }
+
+  button {
+    display: inline-flex;
+    padding: 10px;
+    background-color: $primary-color;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    img {
+      margin-right: 5px; // Adicione um espaço entre o ícone e o texto (se houver)
+      width: 20px; // Defina a largura do ícone conforme necessário
+      height: 20px; // Defina a altura do ícone conforme necessário
     }
   }
 }
