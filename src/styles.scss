@@ -17,3 +17,17 @@ body {
   width: 350px;
   margin: 50px auto;
 }
+
+ul {
+  list-style: none;
+}
+
+textarea:focus,
+input:focus,
+button {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
